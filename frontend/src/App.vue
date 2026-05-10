@@ -1,10 +1,17 @@
 <template>
-  <div>
-    <h1>Logistics System</h1>
-    <ProductList />
+  <div id="app">
+    <router-view />
   </div>
 </template>
 
 <script setup>
-import ProductList from '@/components/ProductList.vue';
+// Empty for now
 </script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+</style>
